@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkArea">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Working Area"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textViewinworking"
+        />
+
+    <Button
+        android:id="@+id/btnID1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="ADD TASK"
+        android:textSize="30dp"
+        android:layout_below="@+id/textViewinworking"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:id="@+id/btnID2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Show Task"
+        android:textSize="30dp"
+        android:layout_below="@+id/btnID1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:id="@+id/btnID3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="FINISH TASK"
+        android:textSize="30dp"
+        android:layout_below="@+id/btnID2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:id="@+id/btnID9"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Open Camera"
+        android:textSize="30dp"
+        android:layout_below="@+id/btnID3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+
+        />
+    <Button
+        android:id="@+id/btnID4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:textSize="30dp"
+        android:layout_below="@+id/btnID9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="Logout"
+        />
+
+    <Button
+        android:id="@+id/btnID5"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnID4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="Logout"
+        android:text="Notification"
+        android:textSize="30dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
+</ScrollView>

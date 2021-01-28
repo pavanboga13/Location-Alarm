@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinishTask">
+
+    <TextView
+        android:id="@+id/finitext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Finish Task"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/finiedit1"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/finitext1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginRight="184dp"
+        android:hint="Task ID"
+        android:textSize="25dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/search_task_id_onDATA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/finiedit1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-58dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:text="Search"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="362dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/finiedit1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:hint="Place Name"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/textView3"
+        android:layout_width="362dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:hint="Task Details"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/finibtn1"
+        android:layout_width="362dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:text="Finish"
+        android:textSize="30dp"/>
+
+    </RelativeLayout>
+</ScrollView>
